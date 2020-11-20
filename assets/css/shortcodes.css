@@ -194,7 +194,7 @@
 .half-background { background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden; }
 
 /* Style */
-.half-background.style-1 { background-image: url('../img/gallery/gallery-1-960x560.jpg'); }
+.half-background.style-1 { background-image: url('../img/imagebox/uno.jpeg'); }
 .half-background.style-2 { background-image: url('../img/bg-services-1-420x330.jpg'); }
 
 @media only screen and (max-width: 991px) {
@@ -333,7 +333,7 @@
 /* Parallax
 -------------------------------------------------------------- */
 .parallax { width: 100%; background-attachment: fixed; background-position: 50% 0; background-repeat: repeat;}
-.parallax-1 { background-image: url('../img/parallax/parallax-1.jpg');  }
+.parallax-1 { background-image: url('../img/slider/three.jpg');  }
 .parallax-2 { background-image: url('../img/parallax/parallax-2.jpg') ; }
 .parallax-3 { background-image: url('../img/parallax/parallax-3.jpg');  }
 .parallax-4 { background-image: url('../img/parallax/parallax-4.jpg') ; }
