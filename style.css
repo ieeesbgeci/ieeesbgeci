@@ -461,7 +461,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 /* Top Bar
 -------------------------------------------------------------- */
 #top-bar { position: relative; z-index: 1; }
-#top-bar, #top-bar a { color: #999; }
+#top-bar, #top-bar a { color: rgb(255, 255, 255); }
 #top-bar .top-bar-inner-wrap { display: table; width: 100%; padding: 12px 0px 13px 0px; }
 #top-bar .top-bar-content { display: table-cell; width: 60%; text-align: left; vertical-align: middle; }
 #top-bar .top-bar-socials { display: table-cell; width: 40%; text-align: right; vertical-align: middle; }
@@ -489,9 +489,9 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .topbar-style-1 #top-bar { background-color: #262626;  }
 
 /* Style 2 */
-.topbar-style-2 #top-bar { background-color: #e9e9e9;  }
+.topbar-style-2 #top-bar { background-color: #0066a1;  }
 .topbar-style-2 #top-bar .top-bar-socials .icons a:before,
-.topbar-style-2 #top-bar .top-bar-content .content:after { background-color: #d5d4d4;  }
+.topbar-style-2 #top-bar .top-bar-content .content:after { background-color: #2e4aa7;  }
 .topbar-style-2 #top-bar .top-bar-socials .icons a { padding: 0px 10.5px; }
 .topbar-style-2 #top-bar .top-bar-socials .text { padding-right: 11px; }
 
@@ -880,7 +880,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 /* Footer
 -------------------------------------------------------------- */
-#footer { background: url('assets/img/page/bg-footer.jpg') no-repeat center center; background-size: cover;  position: relative; z-index: 1; padding: 79px 0px 72px 0px; }
+#footer { background: url('assets/img/imagebox/geci.jpg') no-repeat center center; background-size: cover;  position: relative; z-index: 1; padding: 79px 0px 72px 0px; }
 
 #footer-widgets .widget .widget-title { color: #fff; font-size: 14px; margin-bottom: 24px; letter-spacing: 1.3px; margin-top: 2px; }
 #footer-widgets .widget .widget-title span { padding: 0px 0px 8px 0px; }
