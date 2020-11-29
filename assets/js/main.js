@@ -131,6 +131,7 @@
                 }
             }     
         },
+        
 
         // Mobile Navigation
         mobileNav: function() {
