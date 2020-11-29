@@ -309,7 +309,7 @@ h6 a { color: inherit }
 .bg-light-snow { background-color: #fafafb; }
 .bg-f7f { background-color: #f7f7f7 !important;}
 .bg-ffc { background-color: #0066a1 !important;}
-.bg-row-1 { background: url('assets/img/page/bg-quote.jpg') center center no-repeat; background-size: cover; }
+.bg-row-1 { background: url('assets/img/page/join.png') center center no-repeat; background-size: cover; }
 .bg-row-2 { background: url('assets/img/page/bg-iconbox.jpg') center center no-repeat; background-size: cover; }
 
 .padding-top-45 { padding-top: 45px !important; }
@@ -390,7 +390,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .themesflat-row.gutter-30 > [class*="col"] { padding-left: 15px; padding-right: 15px; }
 
 .themesflat-row .span_1_of_4 { width: 33.333333%; float: left; }
-.themesflat-row .span_1_of_3 { width: 25%; float: left; }
+.themesflat-row .span_1_of_3 { width: 33.333333%; float: left; }
 .themesflat-row .span_1_of_6 { width: 50%; float: left; }
 .themesflat-row .span_1_of_12 { width: 100%; }
 
@@ -462,7 +462,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 -------------------------------------------------------------- */
 #top-bar { position: relative; z-index: 1; }
 #top-bar, #top-bar a { color: rgb(255, 255, 255); }
-#top-bar .top-bar-inner-wrap { display: table; width: 100%; padding: 12px 0px 13px 0px; }
+#top-bar .top-bar-inner-wrap { display: table; width: 100%; padding: 10px 0px 11px 0px; }
 #top-bar .top-bar-content { display: table-cell; width: 60%; text-align: left; vertical-align: middle; }
 #top-bar .top-bar-socials { display: table-cell; width: 40%; text-align: right; vertical-align: middle; }
 
@@ -880,12 +880,12 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 /* Footer
 -------------------------------------------------------------- */
-#footer { background: url('assets/img/imagebox/geci.jpg') no-repeat center center; background-size: cover;  position: relative; z-index: 1; padding: 79px 0px 72px 0px; }
+#footer { background: url('assets/img/gallery/footerbg.png') no-repeat center center; background-size: cover;  position: relative; z-index: 1; padding: 79px 0px 72px 0px; }
 
-#footer-widgets .widget .widget-title { color: #fff; font-size: 14px; margin-bottom: 24px; letter-spacing: 1.3px; margin-top: 2px; }
+#footer-widgets .widget .widget-title { color: #fff; font-size: 24px; margin-bottom: 24px; letter-spacing: 1.3px; margin-top: 2px; }
 #footer-widgets .widget .widget-title span { padding: 0px 0px 8px 0px; }
 #footer-widgets .widget .widget-title span:after { width: 40px; }
-#footer-widgets .widget.widget_lastest ul li { border-top: 1px solid rgba(255,255,255,0.07); padding-top: 13px; margin-top: 19px; }
+#footer-widgets .widget.widget_lastest ul li { border-top: 1px solid rgba(255,255,255,0.07); padding-top: 13px; margin-top: 8px; }
 #footer-widgets .widget.widget_lastest ul li:first-child { border-top: 0px; padding-top: 0px; }
 #footer-widgets .widget ul { margin: 0; list-style: none; }
 
