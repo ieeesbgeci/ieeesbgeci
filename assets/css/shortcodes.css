@@ -194,8 +194,8 @@
 .half-background { background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden; }
 
 /* Style */
-.half-background.style-1 { background-image: url('../img/imagebox/uno.jpeg'); }
-.half-background.style-2 { background-image: url('../img/bg-services-1-420x330.jpg'); }
+.half-background.style-1 { background-image: url('../img/imagebox/geci.jpg'); }
+.half-background.style-2 { background-image: url('../img/imagebox/geci.jpg'); }
 
 @media only screen and (max-width: 991px) {
 	.half-background.style-2 { height: 330px; }
@@ -379,7 +379,7 @@
 .themesflat-project.style-2 .elm-meta a:hover { color: #0066a1; }
 
 @media only screen and (max-width: 1199px) {
-	.themesflat-project.style-1 .heading { font-size: 12px; }
+	.themesflat-project.style-1 .heading { font-size: 24px; }
 	.themesflat-project.has-margin.mg15.w25 .project-item { width: 33.33%; }
   .themesflat-project.style-2 .text-wrap{ padding: 15px 5px; }
 }
