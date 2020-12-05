@@ -391,6 +391,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 
 .themesflat-row .span_1_of_4 { width: 33.333333%; float: left; }
 .themesflat-row .span_1_of_3 { width: 33.333333%; float: left; }
+.themesflat-row .span_of_4 { width: 25%; float: left; }
 .themesflat-row .span_1_of_6 { width: 50%; float: left; }
 .themesflat-row .span_1_of_12 { width: 100%; }
 
@@ -727,8 +728,8 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .comment-list.style-2 li:first-child { margin-top: 0px; }
 .comment-list.style-2 article { margin: 0px; border: none; padding: 31px 40px 31px 39px; }
 .comment-list.style-2 article .gravatar { width: 106px; height: 106px; margin: 7px 31px 0px 0px; }
-.comment-list.style-2 .comment-meta .comment-author { font-size: 16px; line-height: 26px; padding-right: 8px; }
-.comment-list.style-2 .comment-meta .comment-position { line-height: 26px; font-family: 'Montserrat', sans-serif; color: #999; display: inline-block; padding-left: 11px; position: relative; }
+.comment-list.style-2 .comment-meta .comment-author { font-size: 16px; line-height: 26px; padding-right: 8px; font-family: 'Montserrat', sans-serif; font-weight: bold; }
+.comment-list.style-2 .comment-meta .comment-position { line-height: 26px; font-family: 'Montserrat', sans-serif; color: #999; padding-left: 11px; position: relative; }
 .comment-list.style-2 .comment-meta .comment-position:before { content: ""; width: 1px; height: 10px; background-color: #e0e0e0; position: absolute; top: 50%; left: 0; transform: translateY(-50%); }
 .comment-list.style-2 .comment-meta { margin-bottom: 6px; }
 .comment-list.style-2 .comment-text p { letter-spacing: 0.1px; margin-bottom: 15px; }
