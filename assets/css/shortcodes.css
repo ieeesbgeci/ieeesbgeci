@@ -333,7 +333,7 @@
 /* Parallax
 -------------------------------------------------------------- */
 .parallax { width: 100%; background-attachment: fixed; background-position: 50% 0; background-repeat: repeat;}
-.parallax-1 { background-image: url('../img/imagebox/dos.jpeg');  }
+.parallax-1 { background-image: url('../img/page/counterbg.png');  }
 .parallax-2 { background-image: url('../img/parallax/parallax-2.jpg') ; }
 .parallax-3 { background-image: url('../img/parallax/parallax-3.jpg');  }
 .parallax-4 { background-image: url('../img/parallax/parallax-4.jpg') ; }
