@@ -1,0 +1,278 @@
+@import url("https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aschedule");
+ /*Sticky navigation bar  */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width:100%;
+    transition: all 1s ease-in-out;
+  }
+  
+/* Upcoming Events */
+
+.blog-home5 {
+    font-family: "Montserrat", sans-serif;
+      color: #8d97ad;
+    font-weight: 300;
+    
+  }
+  
+  .blog-home5 h1, .blog-home5 h2, .blog-home5 h3, .blog-home5 h4, .blog-home5 h5, .blog-home5 h6 {
+    color: #3e4555;
+  }
+  
+  .blog-home5 .card-title {
+      font-size: 16px;
+  }
+  
+  .blog-home5 .subtitle {
+      color: #8d97ad;
+      line-height: 24px;
+  }
+  
+  .blog-home5 .card.card-shadow {
+      -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+      box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  }
+  
+  .blog-home5 .b-h-box .card-img-overlay {
+    bottom: 0px;
+    top: auto;
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    height: 55%;
+  }
+  
+  .blog-home5 .b-h-box .card-title {
+      color: #ffffff;
+  }
+  
+  .blog-home5 .b-h-box {
+      color: #ffffff;
+  }
+  
+  .blog-home5 .b-h-box .card-text {
+    display: none;
+  }
+  
+  .blog-home5 .b-h-box:hover {
+    color: #8d97ad;
+  }
+  .card-img
+  {
+      height: 500px;
+  }
+  .blog-home5 .b-h-box:hover .card-img-overlay {
+    height: 100%;
+    background-color: rgb(0,102,161,0.3);
+    border: 3px solid rgba(120, 130, 140, 0.13);
+  }
+  
+  .blog-home5 .b-h-box:hover .card-title {
+    color: #263238;
+    margin: 15px 0;
+  }
+  
+  .blog-home5 .b-h-box:hover .card-text {
+    display: block;
+  }
+  
+  .blog-home5 .bg-danger-gradiant {
+      background: #ff4d7e;
+      background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+      background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+      background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+      background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+      transition: all 0.5s ease-in-out;
+  }
+
+  .blog-home5 .font-14 {
+      font-size: 14px;
+  }
+  
+  @media (max-width:768px) {
+      .blog-home5 .b-h-box .card-img-overlay {
+          height: 40%;
+      }
+  }
+
+  .sspan
+  {
+      color:#0066a1
+  }
+ 
+  .card-text
+  {
+      color:#263238;
+  }
+  .top-pad
+  {
+      padding-top: 100px;
+  }
+
+
+  /* mobile devices */
+  @media screen and (max-width: 600px) {
+    
+    .welcome-sec-title 
+    {
+      font-size:30px !important;
+    }
+    .fade-in-text 
+    {
+      font-size: 12px;
+    }
+  }
+ 
+
+
+
+/* Launching Page */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Righteous&family=Montserrat&display=swap');
+
+
+#header {
+  background-color: #766bf5;
+  background: linear-gradient(135deg, #7257fa, #4cfd83);
+  position: fixed;
+  width: -webkit-fill-available !important;
+  width: 100%;
+  min-height: 50px;
+  z-index: 69;
+}
+#welcome-section {
+  background-color: #232323;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  height: 100vh !important;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+
+  
+}
+
+.welcome-sec-title 
+{
+  
+  color: #766bf5;
+  background: linear-gradient(135deg, #7257fa, #4cfd83);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+
+
+
+/* Execom circle */
+.container1 {
+  height: 150px;
+  position: relative;
+
+}
+
+.center1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* fade sllow */
+
+.fade-in {
+  opacity: 0;
+}
+
+
+/* ------------Society and Affinity Groups Changes */
+
+
+.card
+{
+  overflow: hidden;
+  border:0;
+}
+
+.card-im1
+{
+  background: url("../img/gallery/pes.png");
+}
+.card-im2
+{
+  background: url("../img/gallery/cs.png");
+}
+.card-im3
+{
+  background: url("../img/gallery/wie.png");
+}
+.card-block
+{
+  
+  height: 300px;
+  background-size: cover;
+  background-position: center  ;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  
+}
+.card:hover  .card-block {  
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.55);
+  -ms-transform: scale(1.5); /* IE 9 */ 
+  transform: scale(1.5);
+  
+  
+} 
+.card-img-overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;  
+  
+  
+  
+}
+.card-img-overlay span
+{
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+.card:hover .card-img-overlay {
+  opacity: 1;
+  transition: .5s ease;
+}
+
+
+/* disabled about hero image in Home page */
