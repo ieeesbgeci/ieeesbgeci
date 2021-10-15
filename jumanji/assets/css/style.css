@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.lp
+{
+    height:100vh;
+    background: url('../img/JUManji\ 2o.png') no-repeat center center; 
+    
+    
+    background-size: cover;
+    font-size: 24px;
+}
+.navbar-light
+{
+    opacity: 0.5;
+    background-color: #4d320b;
+}
+.logoimg
+{
+    padding: 10px;
+}
+
+.timecon
+{
+    
+    
+    width:100%;
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+/* ======================Counter ++++++++++++++ */
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  
+  
+}
+.number-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.number-list .item {
+  width: 100px;
+  height: 100px;
+  background: #c2c1c193;
+  margin-right: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(29, 22, 22);
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.unit-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.unit-list .item {
+  width: 100px;
+  margin-right: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #201717;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+.timer-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #212423;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+
+/*  */
+.lb
+{
+    background-color: #fff;
+    margin:0 auto;
+    display: flex;
+    flex-direction:  column;
+    align-self: end;
+    justify-content: center;
+}
+.headh1
+{
+    padding:10px;
+    display: block;
+    margin-top:40px;
+    text-align: center;
+    
+}
+.headh1 p
+{
+    font-size: 12px;
+    font-weight: 100;
+}
+.lb h1
+{
+    font-size:60px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #4d320b;
+}
+
+table {
+	width: 100vw;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-collapse:separate;
+    border-spacing:0 12px;
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: rgb(0, 0, 0);
+    
+    
+}
+tr{
+    border-radius:5%;
+    
+}
+th {
+	text-align: left;
+    
+}
+
+thead 	th {
+		background-color: #2b160593;
+	}
+
+.first{background-color:#21242373;  }
+.sec{background-color:#21242341;  }
+.thi{background-color:#2124231c;  }
+@media only screen and (max-width: 600px)
+
+{
+    .number-list .item {
+        width:60px;height:60px;
+    }
+    .unit-list .item{
+        color:rgb(88, 82, 82);
+    }
+}
