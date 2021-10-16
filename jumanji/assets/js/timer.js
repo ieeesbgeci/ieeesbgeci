@@ -71,8 +71,8 @@
 })(jQuery);
 
 $("#timer").aksCountDown({
-  endTime: "17 October 2021 19:00:00 GMT+0530",
+  endTime: "16 October 2021 19:00:00 GMT+0530",
   onEnd: function () {
-    $(this).html('<div class="timer-end">Finished Time</div>');
+    $(this).html('<div class="timer-end">Finished </div>');
   }
 });
