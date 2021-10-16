@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="stylesheet" href="cs1.css">
 </head>
 
 <body>
@@ -61,10 +63,54 @@
         </section>
         
     </main>
+     
+    
+    <div class="container mt-4 mb-5 top-pad chest" >
+        <div class="col-md-12 py-3 "  style="background-color: rgb(245, 245, 245); border-radius: 20px;">
+            <img src="assets/img/giphy (21).gif">
+            <div class="flex-column justify-content-center">
+                <!-- Column -->
+                    
+                   <div class="themesflat-headings style-1 text-center clearfix top-pad">
+                       <h2 class="heading">TASK <span class="sspan">7</span></h2>
+                       <p class="sub-heading">Enter your Final Key</p>
+                   </div>
+
+                   <div class="row bg-white rounded mt-3  justify-content-center"  >
+                    <div class="card-block px-3 row justify-content-center  ">
+                        <p class="card-text text-center">
+    
+                            <div id="form_div " >
+                                <form id="key_form" action="https://ieee-key-api.herokuapp.com/" autocomplete="off" method="post">
+                                    <label>Enter the team name</label><br>
+                                    <input id="team" type="text"><br>
+                                    <label>Enter the key</label><br>
+                                    <input id="key" type="text">
+                                    <button style="border-radius: 5px;margin:10px 0" class="d-block" type="submit">
+                                        <i class="icon ion-android-arrow-forward">Submit</i></button>
+                                </form>		
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+
+            <div class="col-md-7 py-3" >
+                <div class="card-block px-3 ">
+                    <div id="display_data" >
+                        
+                    </div>	
+                </div> 
+            </div>       
+        </div>
+    </div>
+
     <div class="lb">
         <div class="headh1">
             <h1>            Leaderboard        </h1>
-            <p>Updated : 10:30 PM  | Oct 15 </p>
+            <p>Updated : 4:30 PM  | Oct 16 </p>
         </div>
             <table>
                 <thead>
@@ -78,62 +124,62 @@
                 <tbody>
                     <tr class="first">
                         <td>1</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td> INNOVAGE</td>
+                        <td>Task 6</td>
                         
                     </tr>
                     <tr class="sec">
                         <td>2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>TECNOTUNERS</td>
+                        <td>Task 5</td>
                         
                     </tr>
                     <tr class="thi">
                         <td>3</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>DEADSEC</td>
+                        <td>Task 5</td>
                         
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>404 ERROR</td>
+                        <td>Task 4</td>
                         
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>TECH TITANS</td>
+                        <td>Task 4</td>
                         
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>INVICTA</td>
+                        <td>Task 4</td>
                         
                     </tr>
                     <tr>
                         <td>7</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>TECH PIRATES</td>
+                        <td>Task 3</td>
                         
                     </tr>
                     <tr>
                         <td>8</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>ESCAPADE</td>
+                        <td>Task 1</td>
                         
                     </tr>
                     <tr>
                         <td>9</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>SICARIANS</td>
+                        <td>Task 3</td>
                         
                     </tr>
                     <tr>
                         <td>10</td>
-                        <td>Cell 2</td>
-                        <td>Cell 3</td>
+                        <td>OSIRIS</td>
+                        <td>Task 1</td>
                         
                     </tr>
                 </tbody>
@@ -152,6 +198,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/script.min.js"></script>
     <script src="assets/js/timer.js"></script>
+    <script src="assets/js/request.js"></script>
     
 </body>
 
