@@ -279,3 +279,7 @@
 .b{
   border:1px solid red;
 }
+.md-bold
+{
+  font-weight: bold;
+}
